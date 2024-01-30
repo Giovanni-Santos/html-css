@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exercicio de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 300px;
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+        }
+
+        .um {
+            background-color: brown;
+        }
+
+        .dois {
+            background-color: aquamarine;
+        }
+    </style>
 </head>
 <body>
-    
+    <table>
+        <colgroup>
+            <col class="um">
+            <col class="dois">
+        </colgroup>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+        <tr>
+            <td>Benjamin</td>
+            <td>10</td>
+        </tr><tr>
+            <td>Gwen</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Kevin</td>
+            <td>10</td>
+        </tr>
+    </table>
 </body>
 </html>
